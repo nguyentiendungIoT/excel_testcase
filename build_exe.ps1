@@ -38,6 +38,8 @@ if (-not (Test-Path $IconPath)) {
     --name "FitImagesColumnK" `
     --icon "$IconPath" `
     --add-data "YuRa - Copy.ico;." `
+    --add-data "templates;templates" `
+    --add-data "static;static" `
     "$EntryScript"
 
 Write-Host "Build xong: dist/FitImagesColumnK.exe" -ForegroundColor Green

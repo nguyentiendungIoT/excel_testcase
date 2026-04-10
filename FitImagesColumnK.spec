@@ -5,7 +5,7 @@ a = Analysis(
     ['fit_images_column_k.py'],
     pathex=[],
     binaries=[],
-    datas=[('YuRa - Copy.ico', '.')],
+    datas=[('YuRa - Copy.ico', '.'), ('templates', 'templates'), ('static', 'static')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
